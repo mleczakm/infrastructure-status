@@ -77,18 +77,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/skarbiec.mleczki.pl.ico",
     "slug": "test-wersji-v2-skarbca-standalone",
     "status": "up",
-    "uptime": "4.45%",
-    "uptimeDay": "4.45%",
-    "uptimeWeek": "4.45%",
-    "uptimeMonth": "4.45%",
-    "uptimeYear": "4.45%",
+    "uptime": "15.09%",
+    "uptimeDay": "15.09%",
+    "uptimeWeek": "15.09%",
+    "uptimeMonth": "15.09%",
+    "uptimeYear": "15.09%",
     "time": 746,
     "timeDay": 746,
     "timeWeek": 746,
     "timeMonth": 746,
     "timeYear": 746,
     "dailyMinutesDown": {
-      "2026-04-25": 37
+      "2026-04-25": 33
     }
   }
 ]
