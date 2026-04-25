@@ -6,8 +6,8 @@ delay: 2000
 sites:
   - name: warsztatowniasensoryczna.pl
     url: https://warsztatowniasensoryczna.pl
-  - name: skrabiec.mleczki.pl
-    url: https://skrabiec.mleczki.pl
+  - name: skarbiec.mleczki.pl
+    url: https://skarbiec.mleczki.pl
   - name: porin.pl
     url: https://porin.pl
 

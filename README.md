@@ -29,3 +29,11 @@ With [Upptime](https://upptime.js.org), you can get your own unlimited and free 
 - Powered by: [Upptime](https://github.com/upptime/upptime)
 - Code: [MIT](./LICENSE) © [Anand Chowdhary](https://anandchowdhary.com), supported by [Pabio](https://pabio.com)
 - Data in the `./history` directory: [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)
+
+## 🛠 Cloudflare DNS Verification
+
+This repository includes a GitHub Workflow to automatically verify and update the Cloudflare DNS record for your custom domain (configured in `.upptimerc.yml`).
+
+To use this feature, you must add the following [GitHub Secrets](https://github.com/mleczakm/infrastructure-status/settings/secrets/actions) to your repository:
+- `CLOUDFLARE_API_TOKEN`: A Cloudflare API token with `Zone:DNS:Edit` permissions.
+- `CLOUDFLARE_ZONE_ID`: The Zone ID for your domain in Cloudflare.

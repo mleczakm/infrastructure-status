@@ -1,0 +1,37 @@
+name: Update and Verify Cloudflare Domain
+on:
+  push:
+    paths:
+      - '.upptimerc.yml'
+
+jobs:
+  cloudflare-dns:
+    name: Update and Verify DNS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get CNAME from .upptimerc.yml
+        id: config
+        run: |
+          CNAME=$(grep "cname:" .upptimerc.yml | sed 's/.*cname:[[:space:]]*\([^[:space:]#]*\).*/\1/' | tr -d '"'\'')
+          OWNER=$(grep "owner:" .upptimerc.yml | sed 's/.*owner:[[:space:]]*\([^[:space:]#]*\).*/\1/' | tr -d '"'\'')
+          if [ -z "$CNAME" ]; then
+            echo "No custom domain (cname) found in .upptimerc.yml"
+            exit 0
+          fi
+          echo "cname=$CNAME" >> $GITHUB_OUTPUT
+          echo "owner=$OWNER" >> $GITHUB_OUTPUT
+          echo "target=$OWNER.github.io" >> $GITHUB_OUTPUT
+
+      - name: Verify and Update Cloudflare DNS
+        if: steps.config.outputs.cname != ''
+        uses: everpcpc/cloudflare-dns-action@v1
+        with:
+          token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          zone: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+          type: CNAME
+          name: ${{ steps.config.outputs.cname }}
+          content: ${{ steps.config.outputs.target }}
+          proxied: false
