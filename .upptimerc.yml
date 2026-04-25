@@ -10,6 +10,10 @@ sites:
     url: https://skarbiec.mleczki.pl
   - name: porin.pl
     url: https://porin.pl
+  - name: Monitoring na Frogu
+    url: https://frog03-21363.wykr.es
+  - name: Test wersji v2 skarbca (standalone)
+    url: https://skarbiec2.mleczki.pl
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
