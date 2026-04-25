@@ -17,7 +17,7 @@ jobs:
         id: config
         uses: pietrobolcato/action-read-yaml@1.1.0
         with:
-          file: .upptimerc.yml
+          config: .upptimerc.yml
 
       - name: Verify and Update Cloudflare DNS
         if: steps.config.outputs['status-website.cname'] != ''
