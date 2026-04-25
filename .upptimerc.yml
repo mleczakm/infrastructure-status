@@ -13,7 +13,7 @@ sites:
   - name: Monitoring na Frogu
     url: https://frog03-21363.wykr.es
   - name: Test wersji v2 skarbca (standalone)
-    url: https://skarbiec2.mleczki.pl
+    url: https://skarbiec.mleczki.pl
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -32,12 +32,3 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
-
-notifications:
-  - type: custom
-    method: POST
-    url: $NOTIFICATION_CUSTOM_WEBHOOK_URL # URL z końcówką /slack
-    headers:
-      "Content-Type": "application/json"
-    bodyDown: '{"attachments":[{"fallback":"Service DOWN","color":"#e74c3c","title":"❌ Your service $NAME went down.","fields":[{"title":"Service Name","value":"$NAME","short":true},{"title":"Status","value":"$STATUS","short":true},{"title":"URL","value":"$URL","short":false}],"footer":"Upptime","ts":$TIMESTAMP}]}'
-    bodyUp: '{"attachments":[{"fallback":"Service UP","color":"#2ecc71","title":"✅ Your service $NAME is back up.","fields":[{"title":"Service Name","value":"$NAME","short":true},{"title":"Downtime","value":"$DOWNTIME","short":true},{"title":"URL","value":"$URL","short":false}],"footer":"Upptime","ts":$TIMESTAMP}]}'
