@@ -35,6 +35,6 @@ status-website:
 
 notifications:
   - type: slack
-    webhook-url: $NOTIFICATION_SLACK_WEBHOOK_URL
+    webhookUrl: $NOTIFICATION_SLACK_WEBHOOK_URL
   - type: slack
-    webhook-url: $SLACK_WEBHOOK_URL
+    webhookUrl: $SLACK_WEBHOOK_URL
