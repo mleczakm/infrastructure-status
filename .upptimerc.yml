@@ -13,7 +13,7 @@ sites:
   - name: Monitoring na Frogu
     url: https://frog03-21363.wykr.es
   - name: Test wersji v2 skarbca (standalone)
-    url: https://skarbiec2.mleczki.pl
+    url: https://skarbiec.mleczki.pl
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -38,3 +38,5 @@ notifications:
     webhookUrl: $NOTIFICATION_SLACK_WEBHOOK_URL
   - type: slack
     webhookUrl: $SLACK_WEBHOOK_URL
+  - type: discord
+    webhookUrl: $DISCORD_WEBHOOK_URL
