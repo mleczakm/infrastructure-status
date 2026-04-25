@@ -34,9 +34,10 @@ status-website:
 # See https://upptime.js.org/docs/configuration
 
 notifications:
-  - type: slack
-    webhookUrl: $NOTIFICATION_SLACK_WEBHOOK_URL
-  - type: slack
-    webhookUrl: $SLACK_WEBHOOK_URL
-  - type: discord
-    webhookUrl: $DISCORD_WEBHOOK_URL
+  - type: custom
+    method: POST
+    url: $NOTIFICATION_CUSTOM_WEBHOOK_URL # URL z końcówką /slack
+    headers:
+      "Content-Type": "application/json"
+    bodyDown: '{"attachments":[{"fallback":"Service DOWN","color":"#e74c3c","title":"❌ Your service $NAME went down.","fields":[{"title":"Service Name","value":"$NAME","short":true},{"title":"Status","value":"$STATUS","short":true},{"title":"URL","value":"$URL","short":false}],"footer":"Upptime","ts":$TIMESTAMP}]}'
+    bodyUp: '{"attachments":[{"fallback":"Service UP","color":"#2ecc71","title":"✅ Your service $NAME is back up.","fields":[{"title":"Service Name","value":"$NAME","short":true},{"title":"Downtime","value":"$DOWNTIME","short":true},{"title":"URL","value":"$URL","short":false}],"footer":"Upptime","ts":$TIMESTAMP}]}'
