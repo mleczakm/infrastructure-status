@@ -15,7 +15,7 @@ jobs:
 
       - name: Get config from .upptimerc.yml
         id: config
-        uses: jbutcher5/read-yaml@main
+        uses: pietrobolcato/action-read-yaml@1.1.0
         with:
           file: .upptimerc.yml
 
