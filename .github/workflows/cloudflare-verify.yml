@@ -19,13 +19,13 @@ jobs:
         with:
           config: .upptimerc.yml
 
-      - name: Verify and Update Cloudflare DNS
+      - name: Update Cloudflare DNS
         if: steps.config.outputs['status-website.cname'] != ''
-        uses: opszero/actions-cloudflare-dns@v3.1.0
+        uses: rez0n/actions-coudflare-dns@v2.2
         with:
-          token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          zone: ${{ secrets.CLOUDFLARE_ZONE_ID }}
           type: CNAME
-          name: ${{ steps.config.outputs['status-website.cname'] }}.
+          name: ${{ steps.config.outputs['status-website.cname'] }}
           content: ${{ steps.config.outputs['owner'] }}.github.io
+          zone: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+          token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           proxied: false
