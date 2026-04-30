@@ -4,9 +4,9 @@
     "url": "https://warsztatowniasensoryczna.pl",
     "icon": "https://icons.duckduckgo.com/ip3/warsztatowniasensoryczna.pl.ico",
     "slug": "warsztatowniasensoryczna-pl",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -15,7 +15,9 @@
     "timeWeek": 804,
     "timeMonth": 804,
     "timeYear": 804,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 0
+    }
   },
   {
     "name": "skarbiec.mleczki.pl",
@@ -77,11 +79,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/skarbiec.mleczki.pl.ico",
     "slug": "test-wersji-v2-skarbca-standalone",
     "status": "up",
-    "uptime": "98.35%",
+    "uptime": "98.51%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.35%",
-    "uptimeMonth": "98.35%",
-    "uptimeYear": "98.35%",
+    "uptimeWeek": "98.51%",
+    "uptimeMonth": "98.51%",
+    "uptimeYear": "98.51%",
     "time": 846,
     "timeDay": 888,
     "timeWeek": 846,
