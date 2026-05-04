@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e469ec4-8490-46b7-a108-2e1e4b8dcab3" name="Changes" comment="fix: Remove scheduled cron job from upptime configuration">
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/TESTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/test-build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/test-local.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudflare-worker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudflare-worker/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudflare-worker/wrangler.toml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudflare-worker/wrangler.toml" afterDir="false" />
+    <list default="true" id="1e469ec4-8490-46b7-a108-2e1e4b8dcab3" name="Changes" comment="chore: Update Node.js version to 24 and add new configuration files for monitoring">
+      <change beforePath="$PROJECT_DIR$/cloudflare-worker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloudflare-worker/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="3DHCwNj6XnKugnI8sdMcJwGbRKN" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -139,7 +137,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: Remove scheduled cron job from upptime configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Remove scheduled cron job from upptime configuration" />
+    <MESSAGE value="chore: Update deployment process for Cloudflare Worker by replacing global wrangler installation with local execution" />
+    <MESSAGE value="chore: Update Node.js version to 24 and add new configuration files for monitoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Update Node.js version to 24 and add new configuration files for monitoring" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

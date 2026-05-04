@@ -15,8 +15,7 @@ This directory contains the Cloudflare Worker configuration and code that automa
 1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com/)
 2. Navigate to Account Settings → API Tokens
 3. Create a new token with permissions:
-   - `Account.Workers Scripts` (read and write)
-   - `User.API Token` (read)
+   - **Account** → **Workers Scripts** → **Edit**
 4. Copy the API token
 
 ### 2. Get Your Cloudflare Account ID
