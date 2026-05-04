@@ -31,7 +31,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           cd cloudflare-worker
-          echo "${{ secrets.GH_PAT || github.token }}" | npx wrangler secret put GH_PAT
+          echo "${{ secrets.GH_PAT || github.token }}" | npx wrangler secret put GH_PAT --env production
 
       - name: Deploy Cloudflare Worker
         env:
