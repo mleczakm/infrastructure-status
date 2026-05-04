@@ -2,6 +2,11 @@ name = "uptime-dispatcher"
 main = "src/index.ts"
 compatibility_date = "2024-06-01"
 
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
+
 [env.production]
 vars = { GH_OWNER = "mleczakm", GH_REPO = "infrastructure-status" }
 
