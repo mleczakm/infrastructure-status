@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e469ec4-8490-46b7-a108-2e1e4b8dcab3" name="Changes" comment="fix: Remove scheduled cron job from upptime configuration">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy-cloudflare-worker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLOUDFLARE_WORKER_SETUP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudflare-worker/wrangler.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/TESTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/test-build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/test-local.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudflare-worker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudflare-worker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudflare-worker/wrangler.toml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudflare-worker/wrangler.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,54 +31,54 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mleczakm"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mleczakm&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:mleczakm/infrastructure-status.git",
-    "accountId": "08b2b445-4f3b-4625-988d-fb078b041f2f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:mleczakm/infrastructure-status.git&quot;,
+    &quot;accountId&quot;: &quot;08b2b445-4f3b-4625-988d-fb078b041f2f&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.4.7/bin/php" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3DHCwNj6XnKugnI8sdMcJwGbRKN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/c-mmleczko/infrastructure-status",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/c-mmleczko/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/c-mmleczko/infrastructure-status&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/c-mmleczko/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -97,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1777929847935</updated>
       <workItem from="1777929849225" duration="650000" />
+      <workItem from="1777933615827" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="fix: Remove scheduled cron job from upptime configuration">
       <option name="closed" value="true" />

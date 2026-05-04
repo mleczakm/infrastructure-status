@@ -8,11 +8,8 @@
     "deploy": "wrangler deploy --env production",
     "dev": "wrangler dev"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@cloudflare/wrangler": "^3.0.0",
     "typescript": "^5.0.0",
-    "wrangler": "^3.0.0"
+    "wrangler": "^4.87.0"
   }
 }
-

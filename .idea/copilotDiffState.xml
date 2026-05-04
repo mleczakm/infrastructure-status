@@ -67,14 +67,6 @@
             </PendingDiffInfo>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/cloudflare-worker/wrangler.toml">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/cloudflare-worker/wrangler.toml" />
-              <option name="updatedContent" value="name = &quot;uptime-dispatcher&quot;&#10;main = &quot;src/index.ts&quot;&#10;type = &quot;service&quot;&#10;&#10;[env.production]&#10;env_vars = { GH_OWNER = &quot;mleczakm&quot;, GH_REPO = &quot;infrastructure-status&quot; }&#10;secrets = [&quot;GH_PAT&quot;]&#10;&#10;routes = [&#10;  { pattern = &quot;example.com/api/dispatcher&quot;, zone_name = &quot;example.com&quot;, custom_domain = true },&#10;]&#10;&#10;triggers = { crons = [&quot;*/5 * * * *&quot;] }&#10;&#10;[trigger]&#10;crons = [&quot;*/5 * * * *&quot;]&#10;&#10;[build]&#10;command = &quot;npm install &amp;&amp; npm run build&quot;&#10;&#10;[[env.vars]]&#10;name = &quot;GH_OWNER&quot;&#10;text = &quot;mleczakm&quot;&#10;&#10;[[env.vars]]&#10;name = &quot;GH_REPO&quot;&#10;text = &quot;infrastructure-status&quot;&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
