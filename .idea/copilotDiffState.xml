@@ -3,14 +3,6 @@
   <component name="CopilotDiffPersistence">
     <option name="pendingDiffs">
       <map>
-        <entry key="$PROJECT_DIR$/.github/workflows/deploy-cloudflare-worker.yml">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/.github/workflows/deploy-cloudflare-worker.yml" />
-              <option name="updatedContent" value="name: Deploy Cloudflare Worker&#10;on:&#10;  push:&#10;    branches:&#10;      - master&#10;    paths:&#10;      - 'cloudflare-worker/**'&#10;      - '.github/workflows/deploy-cloudflare-worker.yml'&#10;  workflow_dispatch:&#10;&#10;jobs:&#10;  deploy:&#10;    runs-on: ubuntu-latest&#10;    steps:&#10;      - name: Checkout&#10;        uses: actions/checkout@v4&#10;&#10;      - name: Setup Node.js&#10;        uses: actions/setup-node@v4&#10;        with:&#10;          node-version: '18'&#10;&#10;      - name: Install Wrangler&#10;        run: npm install -g @cloudflare/wrangler&#10;&#10;      - name: Deploy Cloudflare Worker&#10;        env:&#10;          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}&#10;          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}&#10;          GH_PAT: ${{ secrets.GH_PAT || github.token }}&#10;        run: |&#10;          cd cloudflare-worker&#10;          wrangler deploy --env production&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/CLOUDFLARE_WORKER_SETUP.md">
           <value>
             <PendingDiffInfo>
