@@ -20,13 +20,24 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Install Dependencies
+        run: |
+          cd cloudflare-worker
+          npm install
+
+      - name: Set Cloudflare Secrets
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          cd cloudflare-worker
+          echo "${{ secrets.GH_PAT || github.token }}" | npx wrangler secret put GH_PAT
+
       - name: Deploy Cloudflare Worker
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
         run: |
           cd cloudflare-worker
-          npm install
           npx wrangler deploy --env production
 
