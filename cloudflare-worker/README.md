@@ -79,23 +79,77 @@ Examples:
 - `0 */6 * * *` - Every 6 hours
 - `0 0 * * *` - Daily at midnight
 
+## Observability & Monitoring
+
+### Structured Logging
+The worker now includes structured logging with:
+- **Run IDs**: Unique identifiers for each execution
+- **Duration tracking**: How long each API call takes
+- **Detailed error context**: Full error details and stack traces
+- **Timestamp**: ISO timestamps for all events
+
+View logs in Cloudflare Dashboard → Workers → Your worker → Logs.
+
+### Alerting
+Configure alerting to get notified when the worker fails:
+
+#### Option 1: Generic Webhook
+1. Set `ALERT_WEBHOOK_URL` environment variable in Cloudflare
+2. The worker will send JSON alerts on failures:
+   ```json
+   {
+     "timestamp": "2024-06-01T12:00:00.000Z",
+     "service": "uptime-dispatcher",
+     "type": "github_api_error",
+     "message": "Failed to trigger uptime workflow: Unauthorized",
+     "details": { ... }
+   }
+   ```
+
+#### Option 2: Discord Integration
+1. Set `NOTIFICATION_DISCORD_WEBHOOK_URL` environment variable in Cloudflare
+2. The worker will automatically append `/slack` for Slack-compatible formatting
+3. The worker will send formatted alerts to your Discord channel
+
+#### Setting Environment Variables
+In Cloudflare Dashboard → Workers → Your worker → Settings → Variables:
+- Add `NOTIFICATION_DISCORD_WEBHOOK_URL` as secrets
+- Or add them in `wrangler.toml` under `[env.production.vars]`
+
+### Monitoring Metrics
+Track these metrics in your logs:
+- **Success rate**: Should be close to 100%
+- **Response time**: GitHub API calls should be fast
+- **Error patterns**: Watch for rate limiting or auth issues
+
 ## Troubleshooting
 
 ### Worker not triggering
 1. Check Cloudflare Dashboard → Workers → Your worker name
 2. Verify the cron trigger is configured
-3. Check Cloudflare Logs for errors
+3. Check Cloudflare Logs for errors (now with structured logging)
 
 ### GitHub workflow not triggered
 1. Verify `GH_PAT` secret is correctly set
 2. Check that the token has `repo` scope
 3. Verify repository name and owner are correct in `wrangler.toml`
 4. Check GitHub Actions workflow logs
+5. Look for the `client_payload` in the workflow logs for debugging
+
+### Alerting not working
+1. Verify webhook URLs are correctly set in Cloudflare Workers
+2. Check worker logs for alert delivery errors
+3. Test webhook endpoints manually
 
 ### Rate Limiting
 GitHub's API has rate limits. Free tier allows:
 - 5,000 API calls per hour
 - Every 5 minutes = 288 API calls per day (well within limits)
+
+If you hit rate limits, the worker will:
+- Log the rate limit error
+- Send an alert about rate limiting
+- Retry on the next scheduled run
 
 ## Additional Resources
 
