@@ -1,0 +1,28 @@
+name = "uptime-dispatcher"
+main = "src/index.ts"
+type = "service"
+
+[env.production]
+env_vars = { GH_OWNER = "mleczakm", GH_REPO = "infrastructure-status" }
+secrets = ["GH_PAT"]
+
+routes = [
+  { pattern = "example.com/api/dispatcher", zone_name = "example.com", custom_domain = true },
+]
+
+triggers = { crons = ["*/5 * * * *"] }
+
+[trigger]
+crons = ["*/5 * * * *"]
+
+[build]
+command = "npm install && npm run build"
+
+[[env.vars]]
+name = "GH_OWNER"
+text = "mleczakm"
+
+[[env.vars]]
+name = "GH_REPO"
+text = "infrastructure-status"
+

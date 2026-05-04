@@ -1,0 +1,18 @@
+{
+  "name": "uptime-dispatcher",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker to trigger GitHub uptime checks",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "wrangler build",
+    "deploy": "wrangler deploy --env production",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cloudflare/wrangler": "^3.0.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^3.0.0"
+  }
+}
+

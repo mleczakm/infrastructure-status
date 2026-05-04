@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e469ec4-8490-46b7-a108-2e1e4b8dcab3" name="Changes" comment="fix: Remove scheduled cron job from upptime configuration">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy-cloudflare-worker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLOUDFLARE_WORKER_SETUP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudflare-worker/wrangler.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/c-mmleczko/infrastructure-status" value="3DHCwNj6XnKugnI8sdMcJwGbRKN" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mleczakm"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:mleczakm/infrastructure-status.git",
+    "accountId": "08b2b445-4f3b-4625-988d-fb078b041f2f"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.4.7/bin/php" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3DHCwNj6XnKugnI8sdMcJwGbRKN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/c-mmleczko/infrastructure-status",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/c-mmleczko/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.31033.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e469ec4-8490-46b7-a108-2e1e4b8dcab3" name="Changes" comment="" />
+      <created>1777929847935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777929847935</updated>
+      <workItem from="1777929849225" duration="650000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix: Remove scheduled cron job from upptime configuration">
+      <option name="closed" value="true" />
+      <created>1777930093088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777930093088</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: Remove scheduled cron job from upptime configuration">
+      <option name="closed" value="true" />
+      <created>1777930117156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777930117156</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: Remove scheduled cron job from upptime configuration">
+      <option name="closed" value="true" />
+      <created>1777930133377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777930133377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: Remove scheduled cron job from upptime configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Remove scheduled cron job from upptime configuration" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
