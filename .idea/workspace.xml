@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e469ec4-8490-46b7-a108-2e1e4b8dcab3" name="Changes" comment="feat: Add observability configuration for enhanced logging in wrangler">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-cloudflare-worker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-cloudflare-worker.yml" afterDir="false" />
+    <list default="true" id="1e469ec4-8490-46b7-a108-2e1e4b8dcab3" name="Changes" comment="fix: Update deployment workflow to set production environment for GH_PAT secret">
+      <change beforePath="$PROJECT_DIR$/cloudflare-worker/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cloudflare-worker/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1778194812871" />
+    <option name="spentUsd" value="0.01482075" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="7" />
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -142,7 +149,9 @@
     <MESSAGE value="chore: Update Cloudflare Worker README with new API token permissions and setup instructions" />
     <MESSAGE value="feat: Enhance uptime dispatcher with structured logging and Discord alerting" />
     <MESSAGE value="feat: Add observability configuration for enhanced logging in wrangler" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add observability configuration for enhanced logging in wrangler" />
+    <MESSAGE value="feat: Update deployment workflow to install dependencies and set Cloudflare secrets" />
+    <MESSAGE value="fix: Update deployment workflow to set production environment for GH_PAT secret" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Update deployment workflow to set production environment for GH_PAT secret" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
