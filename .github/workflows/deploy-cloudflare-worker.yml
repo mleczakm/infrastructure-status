@@ -32,6 +32,7 @@ jobs:
         run: |
           cd cloudflare-worker
           echo "${{ secrets.GH_PAT || github.token }}" | npx wrangler secret put GH_PAT --env production
+          echo "${{ secrets.NOTIFICATION_DISCORD_WEBHOOK_URL }}" | npx wrangler secret put NOTIFICATION_DISCORD_WEBHOOK_URL --env production
 
       - name: Deploy Cloudflare Worker
         env:
