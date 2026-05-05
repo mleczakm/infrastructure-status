@@ -25,7 +25,7 @@ async function handleScheduled(env: Env): Promise<void> {
         method: 'POST',
         headers: {
           Accept: 'application/vnd.github.v3+json',
-          Authorization: `token ${GH_PAT}a`,
+          Authorization: `token ${GH_PAT}`,
           'Content-Type': 'application/json',
           'User-Agent': `${GH_OWNER}-uptime-dispatcher`,
         },
