@@ -24,19 +24,19 @@
     "url": "https://skarbiec.mleczki.pl",
     "icon": "https://icons.duckduckgo.com/ip3/skarbiec.mleczki.pl.ico",
     "slug": "skarbiec-mleczki-pl",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1458,
-    "timeDay": 4821,
-    "timeWeek": 1593,
-    "timeMonth": 1458,
-    "timeYear": 1458,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.77%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
+    "time": 1535,
+    "timeDay": 5176,
+    "timeWeek": 1695,
+    "timeMonth": 1535,
+    "timeYear": 1535,
     "dailyMinutesDown": {
-      "2026-05-11": 0
+      "2026-05-11": 3
     }
   },
   {
