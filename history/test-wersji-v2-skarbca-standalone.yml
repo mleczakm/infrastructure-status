@@ -1,7 +1,7 @@
 url: https://skarbiec.mleczki.pl
-status: up
-code: 200
-responseTime: 835
-lastUpdated: 2026-05-17T14:21:41.746Z
+status: down
+code: 502
+responseTime: 427
+lastUpdated: 2026-05-17T14:36:49.382Z
 startTime: 2026-04-25T18:11:04.089Z
 generator: Upptime <https://github.com/upptime/upptime>
