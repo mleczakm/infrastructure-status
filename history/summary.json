@@ -40,18 +40,20 @@
     "url": "https://porin.pl",
     "icon": "https://icons.duckduckgo.com/ip3/porin.pl.ico",
     "slug": "porin-kompleksowa-budowa-domow",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 3203,
-    "timeDay": 3203,
-    "timeWeek": 3203,
-    "timeMonth": 3203,
-    "timeYear": 3203,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.84%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.84%",
+    "uptimeYear": "99.84%",
+    "time": 14786,
+    "timeDay": 14786,
+    "timeWeek": 14786,
+    "timeMonth": 14786,
+    "timeYear": 14786,
+    "dailyMinutesDown": {
+      "2026-05-21": 0
+    }
   },
   {
     "name": "Monitoring na Frogu",
