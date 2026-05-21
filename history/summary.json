@@ -40,19 +40,19 @@
     "url": "https://porin.pl",
     "icon": "https://icons.duckduckgo.com/ip3/porin.pl.ico",
     "slug": "porin-kompleksowa-budowa-domow",
-    "status": "down",
-    "uptime": "99.84%",
-    "uptimeDay": "99.84%",
-    "uptimeWeek": "99.84%",
-    "uptimeMonth": "99.84%",
-    "uptimeYear": "99.84%",
-    "time": 14786,
-    "timeDay": 14786,
-    "timeWeek": 14786,
-    "timeMonth": 14786,
-    "timeYear": 14786,
+    "status": "up",
+    "uptime": "96.90%",
+    "uptimeDay": "96.90%",
+    "uptimeWeek": "96.90%",
+    "uptimeMonth": "96.90%",
+    "uptimeYear": "96.90%",
+    "time": 11182,
+    "timeDay": 11182,
+    "timeWeek": 11182,
+    "timeMonth": 11182,
+    "timeYear": 11182,
     "dailyMinutesDown": {
-      "2026-05-21": 0
+      "2026-05-21": 3
     }
   },
   {
