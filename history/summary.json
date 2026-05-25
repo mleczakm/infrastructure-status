@@ -22,17 +22,17 @@
     "url": "https://skarbiec.mleczki.pl",
     "icon": "https://icons.duckduckgo.com/ip3/skarbiec.mleczki.pl.ico",
     "slug": "classy-cash-aplikacja-wspierajaca-prace-skarbnikow-klasowych",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1036,
-    "timeDay": 1013,
-    "timeWeek": 1036,
-    "timeMonth": 1036,
-    "timeYear": 1036,
+    "time": 977,
+    "timeDay": 729,
+    "timeWeek": 977,
+    "timeMonth": 977,
+    "timeYear": 977,
     "dailyMinutesDown": {}
   },
   {
@@ -67,7 +67,7 @@
     "time": 1296,
     "timeDay": 725,
     "timeWeek": 570,
-    "timeMonth": 1296,
+    "timeMonth": 1592,
     "timeYear": 1296,
     "dailyMinutesDown": {
       "2026-05-07": 69
