@@ -4,18 +4,20 @@
     "url": "https://warsztatowniasensoryczna.pl",
     "icon": "https://icons.duckduckgo.com/ip3/warsztatowniasensoryczna.pl.ico",
     "slug": "warsztatownia-sensoryczna",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1952,
-    "timeDay": 1391,
-    "timeWeek": 796,
-    "timeMonth": 1952,
-    "timeYear": 1952,
-    "dailyMinutesDown": {}
+    "time": 1862,
+    "timeDay": 904,
+    "timeWeek": 812,
+    "timeMonth": 1862,
+    "timeYear": 1862,
+    "dailyMinutesDown": {
+      "2026-05-30": 0
+    }
   },
   {
     "name": "ClassyCash - aplikacja wspierająca pracę skarbników klasowych",
@@ -30,7 +32,7 @@
     "uptimeYear": "100.00%",
     "time": 1419,
     "timeDay": 1730,
-    "timeWeek": 1441,
+    "timeWeek": 1650,
     "timeMonth": 1419,
     "timeYear": 1419,
     "dailyMinutesDown": {}
