@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/warsztatowniasensoryczna.pl.ico",
     "slug": "warsztatownia-sensoryczna",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.96%",
+    "uptimeDay": "99.63%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
     "time": 1596,
     "timeDay": 645,
     "timeWeek": 779,
     "timeMonth": 1596,
     "timeYear": 1596,
     "dailyMinutesDown": {
-      "2026-05-31": 0
+      "2026-05-31": 5
     }
   },
   {
@@ -24,17 +24,17 @@
     "url": "https://skarbiec.mleczki.pl",
     "icon": "https://icons.duckduckgo.com/ip3/skarbiec.mleczki.pl.ico",
     "slug": "classy-cash-aplikacja-wspierajaca-prace-skarbnikow-klasowych",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1349,
-    "timeDay": 1031,
-    "timeWeek": 1526,
-    "timeMonth": 1349,
-    "timeYear": 1349,
+    "time": 1335,
+    "timeDay": 1030,
+    "timeWeek": 1493,
+    "timeMonth": 1335,
+    "timeYear": 1335,
     "dailyMinutesDown": {}
   },
   {
