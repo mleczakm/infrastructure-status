@@ -1,7 +1,7 @@
 url: https://warsztatowniasensoryczna.pl
-status: up
-code: 200
-responseTime: 796
-lastUpdated: 2026-05-31T23:53:24.116Z
+status: down
+code: 500
+responseTime: 469
+lastUpdated: 2026-06-01T04:56:09.922Z
 startTime: 2026-05-21T11:04:24.957Z
 generator: Upptime <https://github.com/upptime/upptime>
