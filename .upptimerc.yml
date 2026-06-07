@@ -4,6 +4,10 @@ repo: infrastructure-status # The name of this repository
 delay: 2000
 
 sites:
+  - name: mleczki.pl
+    url: https://mleczki.pl
+  - name: Cargo Mleczki
+    url: https://cargo.mleczki.pl
   - name: Warsztatownia Sensoryczna
     url: https://warsztatowniasensoryczna.pl
   - name: ClassyCash - aplikacja wspierająca pracę skarbników klasowych
