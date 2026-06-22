@@ -22,18 +22,20 @@
     "url": "https://cargo.mleczki.pl",
     "icon": "https://icons.duckduckgo.com/ip3/cargo.mleczki.pl.ico",
     "slug": "cargo-mleczki",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 681,
-    "timeDay": 594,
-    "timeWeek": 719,
-    "timeMonth": 681,
-    "timeYear": 681,
-    "dailyMinutesDown": {}
+    "time": 667,
+    "timeDay": 511,
+    "timeWeek": 683,
+    "timeMonth": 667,
+    "timeYear": 667,
+    "dailyMinutesDown": {
+      "2026-06-22": 1
+    }
   },
   {
     "name": "Warsztatownia Sensoryczna",
@@ -49,7 +51,7 @@
     "time": 1095,
     "timeDay": 694,
     "timeWeek": 714,
-    "timeMonth": 1110,
+    "timeMonth": 734,
     "timeYear": 1095,
     "dailyMinutesDown": {}
   },
