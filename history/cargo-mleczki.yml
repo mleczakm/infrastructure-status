@@ -1,7 +1,7 @@
 url: https://cargo.mleczki.pl
-status: up
-code: 200
-responseTime: 594
-lastUpdated: 2026-06-22T00:01:35.886Z
+status: down
+code: 502
+responseTime: 428
+lastUpdated: 2026-06-22T09:55:43.690Z
 startTime: 2026-06-07T18:37:33.830Z
 generator: Upptime <https://github.com/upptime/upptime>
