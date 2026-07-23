@@ -94,20 +94,20 @@
     "url": "https://frog03-21363.wykr.es",
     "icon": "https://icons.duckduckgo.com/ip3/frog03-21363.wykr.es.ico",
     "slug": "monitoring-na-frogu",
-    "status": "down",
+    "status": "up",
     "uptime": "99.95%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.95%",
-    "time": 875,
-    "timeDay": 277,
-    "timeWeek": 822,
-    "timeMonth": 609,
-    "timeYear": 875,
+    "time": 871,
+    "timeDay": 311,
+    "timeWeek": 788,
+    "timeMonth": 603,
+    "timeYear": 871,
     "dailyMinutesDown": {
       "2026-05-07": 69,
-      "2026-07-23": 0
+      "2026-07-23": 1
     }
   }
 ]
