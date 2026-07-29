@@ -22,36 +22,40 @@
     "url": "https://cargo.mleczki.pl",
     "icon": "https://icons.duckduckgo.com/ip3/cargo.mleczki.pl.ico",
     "slug": "cargo-mleczki",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 613,
-    "timeDay": 421,
-    "timeWeek": 588,
-    "timeMonth": 594,
-    "timeYear": 613,
-    "dailyMinutesDown": {}
+    "time": 605,
+    "timeDay": 305,
+    "timeWeek": 531,
+    "timeMonth": 580,
+    "timeYear": 605,
+    "dailyMinutesDown": {
+      "2026-07-29": 1
+    }
   },
   {
     "name": "Warsztatownia Sensoryczna",
     "url": "https://warsztatowniasensoryczna.pl",
     "icon": "https://icons.duckduckgo.com/ip3/warsztatowniasensoryczna.pl.ico",
     "slug": "warsztatownia-sensoryczna",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 906,
-    "timeDay": 547,
-    "timeWeek": 575,
-    "timeMonth": 635,
-    "timeYear": 906,
-    "dailyMinutesDown": {}
+    "time": 898,
+    "timeDay": 369,
+    "timeWeek": 520,
+    "timeMonth": 620,
+    "timeYear": 898,
+    "dailyMinutesDown": {
+      "2026-07-29": 0
+    }
   },
   {
     "name": "ClassyCash - aplikacja wspierająca pracę skarbników klasowych",
