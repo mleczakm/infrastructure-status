@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 164,
-    "timeDay": 122,
-    "timeWeek": 232,
-    "timeMonth": 182,
+    "timeDay": 154,
+    "timeWeek": 219,
+    "timeMonth": 181,
     "timeYear": 164,
     "dailyMinutesDown": {}
   },
@@ -28,11 +28,11 @@
     "uptimeWeek": "99.80%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.98%",
-    "time": 622,
-    "timeDay": 673,
-    "timeWeek": 657,
-    "timeMonth": 616,
-    "timeYear": 622,
+    "time": 623,
+    "timeDay": 692,
+    "timeWeek": 687,
+    "timeMonth": 622,
+    "timeYear": 623,
     "dailyMinutesDown": {
       "2026-07-29": 20
     }
@@ -49,9 +49,9 @@
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.98%",
     "time": 884,
-    "timeDay": 691,
-    "timeWeek": 631,
-    "timeMonth": 644,
+    "timeDay": 845,
+    "timeWeek": 664,
+    "timeMonth": 640,
     "timeYear": 884,
     "dailyMinutesDown": {
       "2026-07-29": 20
@@ -68,11 +68,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 853,
-    "timeDay": 558,
-    "timeWeek": 548,
-    "timeMonth": 488,
-    "timeYear": 853,
+    "time": 850,
+    "timeDay": 581,
+    "timeWeek": 579,
+    "timeMonth": 493,
+    "timeYear": 850,
     "dailyMinutesDown": {}
   },
   {
@@ -86,11 +86,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 3009,
-    "timeDay": 1254,
-    "timeWeek": 1591,
-    "timeMonth": 1695,
-    "timeYear": 3009,
+    "time": 2986,
+    "timeDay": 1085,
+    "timeWeek": 1446,
+    "timeMonth": 1665,
+    "timeYear": 2986,
     "dailyMinutesDown": {}
   },
   {
@@ -104,11 +104,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.95%",
-    "time": 814,
-    "timeDay": 400,
-    "timeWeek": 483,
-    "timeMonth": 565,
-    "timeYear": 814,
+    "time": 813,
+    "timeDay": 631,
+    "timeWeek": 501,
+    "timeMonth": 569,
+    "timeYear": 813,
     "dailyMinutesDown": {
       "2026-05-07": 69
     }
