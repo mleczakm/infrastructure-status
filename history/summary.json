@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 164,
-    "timeDay": 154,
-    "timeWeek": 219,
+    "time": 166,
+    "timeDay": 238,
+    "timeWeek": 210,
     "timeMonth": 181,
-    "timeYear": 164,
+    "timeYear": 166,
     "dailyMinutesDown": {}
   },
   {
@@ -29,9 +29,9 @@
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.98%",
     "time": 623,
-    "timeDay": 692,
-    "timeWeek": 765,
-    "timeMonth": 622,
+    "timeDay": 618,
+    "timeWeek": 692,
+    "timeMonth": 627,
     "timeYear": 623,
     "dailyMinutesDown": {
       "2026-07-29": 20
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.98%",
-    "time": 884,
-    "timeDay": 845,
-    "timeWeek": 744,
-    "timeMonth": 640,
-    "timeYear": 884,
+    "time": 882,
+    "timeDay": 666,
+    "timeWeek": 692,
+    "timeMonth": 644,
+    "timeYear": 882,
     "dailyMinutesDown": {
       "2026-07-29": 20
     }
@@ -68,11 +68,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 850,
-    "timeDay": 581,
-    "timeWeek": 579,
-    "timeMonth": 493,
-    "timeYear": 850,
+    "time": 845,
+    "timeDay": 360,
+    "timeWeek": 514,
+    "timeMonth": 491,
+    "timeYear": 845,
     "dailyMinutesDown": {}
   },
   {
@@ -86,11 +86,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2986,
-    "timeDay": 1085,
-    "timeWeek": 1446,
-    "timeMonth": 1665,
-    "timeYear": 2986,
+    "time": 2974,
+    "timeDay": 1935,
+    "timeWeek": 1347,
+    "timeMonth": 1642,
+    "timeYear": 2974,
     "dailyMinutesDown": {}
   },
   {
@@ -100,18 +100,17 @@
     "slug": "monitoring-na-frogu",
     "status": "up",
     "uptime": "99.95%",
-    "uptimeDay": "99.66%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.95%",
-    "time": 794,
-    "timeDay": 399,
-    "timeWeek": 457,
-    "timeMonth": 545,
-    "timeYear": 794,
+    "time": 791,
+    "timeDay": 362,
+    "timeWeek": 427,
+    "timeMonth": 543,
+    "timeYear": 791,
     "dailyMinutesDown": {
-      "2026-05-07": 69,
-      "2026-08-05": 5
+      "2026-05-07": 69
     }
   }
 ]
