@@ -42,20 +42,20 @@
     "url": "https://warsztatowniasensoryczna.pl",
     "icon": "https://icons.duckduckgo.com/ip3/warsztatowniasensoryczna.pl.ico",
     "slug": "warsztatownia-sensoryczna",
-    "status": "down",
+    "status": "up",
     "uptime": "99.90%",
-    "uptimeDay": "93.73%",
-    "uptimeWeek": "99.10%",
-    "uptimeMonth": "99.75%",
+    "uptimeDay": "93.43%",
+    "uptimeWeek": "99.06%",
+    "uptimeMonth": "99.74%",
     "uptimeYear": "99.90%",
-    "time": 868,
-    "timeDay": 607,
-    "timeWeek": 656,
-    "timeMonth": 633,
-    "timeYear": 868,
+    "time": 870,
+    "timeDay": 707,
+    "timeWeek": 697,
+    "timeMonth": 646,
+    "timeYear": 870,
     "dailyMinutesDown": {
       "2026-07-29": 20,
-      "2026-08-08": 90
+      "2026-08-08": 95
     }
   },
   {
