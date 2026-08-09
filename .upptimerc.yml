@@ -16,12 +16,13 @@ sites:
     url: https://porin.pl
   - name: Monitoring na Frogu
     url: https://frog03-21363.wykr.es
+  - name: śledź.mleczki.pl
+    url: https://xn--led-bza2n.mleczki.pl
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.mleczki.pl
-  baseUrl: /
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Status stron Mleczki
   introTitle: "**Infrastructure Status** is the open-source uptime monitor and status page, powered entirely by GitHub."
