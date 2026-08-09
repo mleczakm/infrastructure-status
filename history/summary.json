@@ -24,9 +24,9 @@
     "slug": "cargo-mleczki",
     "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "97.20%",
-    "uptimeWeek": "99.60%",
-    "uptimeMonth": "99.86%",
+    "uptimeDay": "96.93%",
+    "uptimeWeek": "99.56%",
+    "uptimeMonth": "99.85%",
     "uptimeYear": "99.93%",
     "time": 692,
     "timeDay": 1907,
@@ -35,7 +35,7 @@
     "timeYear": 692,
     "dailyMinutesDown": {
       "2026-07-29": 20,
-      "2026-08-09": 40
+      "2026-08-09": 44
     }
   },
   {
@@ -65,17 +65,17 @@
     "url": "https://skarbiec.mleczki.pl",
     "icon": "https://icons.duckduckgo.com/ip3/skarbiec.mleczki.pl.ico",
     "slug": "classy-cash-aplikacja-wspierajaca-prace-skarbnikow-klasowych",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 833,
-    "timeDay": 469,
-    "timeWeek": 484,
-    "timeMonth": 481,
-    "timeYear": 833,
+    "time": 837,
+    "timeDay": 843,
+    "timeWeek": 576,
+    "timeMonth": 504,
+    "timeYear": 837,
     "dailyMinutesDown": {}
   },
   {
