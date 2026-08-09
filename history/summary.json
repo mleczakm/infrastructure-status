@@ -23,11 +23,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/cargo.mleczki.pl.ico",
     "slug": "cargo-mleczki",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.94%",
+    "uptimeDay": "97.88%",
+    "uptimeWeek": "99.70%",
+    "uptimeMonth": "99.88%",
+    "uptimeYear": "99.94%",
     "time": 692,
     "timeDay": 1907,
     "timeWeek": 1144,
@@ -35,7 +35,7 @@
     "timeYear": 692,
     "dailyMinutesDown": {
       "2026-07-29": 20,
-      "2026-08-09": 1
+      "2026-08-09": 31
     }
   },
   {
@@ -43,21 +43,21 @@
     "url": "https://warsztatowniasensoryczna.pl",
     "icon": "https://icons.duckduckgo.com/ip3/warsztatowniasensoryczna.pl.ico",
     "slug": "warsztatownia-sensoryczna",
-    "status": "down",
-    "uptime": "99.90%",
-    "uptimeDay": "93.70%",
-    "uptimeWeek": "99.10%",
-    "uptimeMonth": "99.75%",
-    "uptimeYear": "99.90%",
-    "time": 920,
-    "timeDay": 1479,
-    "timeWeek": 1137,
-    "timeMonth": 803,
-    "timeYear": 920,
+    "status": "up",
+    "uptime": "99.88%",
+    "uptimeDay": "91.71%",
+    "uptimeWeek": "98.82%",
+    "uptimeMonth": "99.68%",
+    "uptimeYear": "99.88%",
+    "time": 915,
+    "timeDay": 1366,
+    "timeWeek": 1092,
+    "timeMonth": 795,
+    "timeYear": 915,
     "dailyMinutesDown": {
       "2026-07-29": 20,
       "2026-08-08": 90,
-      "2026-08-09": 1
+      "2026-08-09": 29
     }
   },
   {
@@ -84,18 +84,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/porin.pl.ico",
     "slug": "porin-kompleksowa-budowa-domow",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.97%",
+    "uptimeDay": "97.95%",
+    "uptimeWeek": "99.71%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.97%",
     "time": 2949,
     "timeDay": 2758,
     "timeWeek": 2102,
     "timeMonth": 1796,
     "timeYear": 2949,
     "dailyMinutesDown": {
-      "2026-08-09": 0
+      "2026-08-09": 29
     }
   },
   {
