@@ -22,20 +22,20 @@
     "url": "https://cargo.mleczki.pl",
     "icon": "https://icons.duckduckgo.com/ip3/cargo.mleczki.pl.ico",
     "slug": "cargo-mleczki",
-    "status": "down",
-    "uptime": "99.93%",
-    "uptimeDay": "96.93%",
-    "uptimeWeek": "99.56%",
-    "uptimeMonth": "99.85%",
-    "uptimeYear": "99.93%",
+    "status": "up",
+    "uptime": "99.90%",
+    "uptimeDay": "95.16%",
+    "uptimeWeek": "99.31%",
+    "uptimeMonth": "99.80%",
+    "uptimeYear": "99.90%",
     "time": 692,
-    "timeDay": 1907,
-    "timeWeek": 1144,
-    "timeMonth": 766,
+    "timeDay": 1661,
+    "timeWeek": 1102,
+    "timeMonth": 764,
     "timeYear": 692,
     "dailyMinutesDown": {
       "2026-07-29": 20,
-      "2026-08-09": 44
+      "2026-08-09": 70
     }
   },
   {
