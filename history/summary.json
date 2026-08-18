@@ -31,7 +31,7 @@
     "time": 678,
     "timeDay": 634,
     "timeWeek": 599,
-    "timeMonth": 749,
+    "timeMonth": 750,
     "timeYear": 678,
     "dailyMinutesDown": {
       "2026-07-29": 20,
@@ -52,7 +52,7 @@
     "time": 907,
     "timeDay": 512,
     "timeWeek": 924,
-    "timeMonth": 839,
+    "timeMonth": 846,
     "timeYear": 907,
     "dailyMinutesDown": {
       "2026-07-29": 20,
@@ -75,7 +75,7 @@
     "time": 871,
     "timeDay": 966,
     "timeWeek": 1163,
-    "timeMonth": 737,
+    "timeMonth": 747,
     "timeYear": 871,
     "dailyMinutesDown": {}
   },
@@ -93,7 +93,7 @@
     "time": 2836,
     "timeDay": 1950,
     "timeWeek": 2123,
-    "timeMonth": 1960,
+    "timeMonth": 1954,
     "timeYear": 2836,
     "dailyMinutesDown": {
       "2026-08-09": 379
@@ -104,20 +104,20 @@
     "url": "https://frog03-21363.wykr.es",
     "icon": "https://icons.duckduckgo.com/ip3/frog03-21363.wykr.es.ico",
     "slug": "monitoring-na-frogu",
-    "status": "down",
+    "status": "up",
     "uptime": "99.96%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.67%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.96%",
-    "time": 717,
-    "timeDay": 294,
-    "timeWeek": 379,
-    "timeMonth": 419,
-    "timeYear": 717,
+    "time": 715,
+    "timeDay": 313,
+    "timeWeek": 383,
+    "timeMonth": 421,
+    "timeYear": 715,
     "dailyMinutesDown": {
       "2026-05-07": 69,
-      "2026-08-18": 0
+      "2026-08-18": 5
     }
   },
   {
