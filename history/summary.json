@@ -106,9 +106,9 @@
     "slug": "monitoring-na-frogu",
     "status": "up",
     "uptime": "99.96%",
-    "uptimeDay": "99.67%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
     "time": 695,
     "timeDay": 328,
@@ -116,8 +116,7 @@
     "timeMonth": 415,
     "timeYear": 695,
     "dailyMinutesDown": {
-      "2026-05-07": 69,
-      "2026-08-22": 5
+      "2026-05-07": 69
     }
   },
   {
@@ -126,11 +125,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/xn--led-bza2n.mleczki.pl.ico",
     "slug": "sledz-mleczki-pl",
     "status": "up",
-    "uptime": "95.59%",
+    "uptime": "95.60%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "95.59%",
-    "uptimeYear": "95.59%",
+    "uptimeMonth": "95.60%",
+    "uptimeYear": "95.60%",
     "time": 2124,
     "timeDay": 7222,
     "timeWeek": 3115,
