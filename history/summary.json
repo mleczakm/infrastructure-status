@@ -86,9 +86,9 @@
     "slug": "porin-kompleksowa-budowa-domow",
     "status": "up",
     "uptime": "99.72%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.13%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.14%",
     "uptimeYear": "99.72%",
     "time": 2959,
     "timeDay": 8103,
@@ -96,8 +96,7 @@
     "timeMonth": 2522,
     "timeYear": 2959,
     "dailyMinutesDown": {
-      "2026-08-09": 379,
-      "2026-08-23": 2
+      "2026-08-09": 379
     }
   },
   {
@@ -126,11 +125,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/xn--led-bza2n.mleczki.pl.ico",
     "slug": "sledz-mleczki-pl",
     "status": "up",
-    "uptime": "95.92%",
+    "uptime": "95.93%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "95.92%",
-    "uptimeYear": "95.92%",
+    "uptimeMonth": "95.93%",
+    "uptimeYear": "95.93%",
     "time": 2084,
     "timeDay": 1406,
     "timeWeek": 3173,
