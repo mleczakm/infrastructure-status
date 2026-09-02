@@ -15,7 +15,13 @@ sites:
   - name: PORIN - kompleksowa budowa domów
     url: https://porin.pl
   - name: Monitoring na Frogu
-    url: https://frog03-21363.wykr.es
+    # Check the Beszel hub directly on its published port instead of the
+    # Cloudflare-fronted https://frog03-21363.wykr.es. Mikr.us puts *.wykr.es
+    # behind Cloudflare Bot Fight Mode, which intermittently 403s the GitHub
+    # Actions runner IPs Upptime runs from (fast edge 403, request never reaches
+    # Beszel) and produced repeated false "down" alerts. This URL hits the
+    # origin, so a failure means the hub is genuinely unreachable.
+    url: http://frog03.mikr.us:21363
   - name: śledź.mleczki.pl
     url: https://xn--led-bza2n.mleczki.pl
 
