@@ -105,20 +105,20 @@
     "url": "http://frog03.mikr.us:21363",
     "icon": "https://icons.duckduckgo.com/ip3/frog03.mikr.us.ico",
     "slug": "monitoring-na-frogu",
-    "status": "down",
-    "uptime": "99.96%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.96%",
-    "time": 611,
-    "timeDay": 289,
-    "timeWeek": 335,
-    "timeMonth": 386,
-    "timeYear": 611,
+    "status": "up",
+    "uptime": "99.91%",
+    "uptimeDay": "92.56%",
+    "uptimeWeek": "98.94%",
+    "uptimeMonth": "99.76%",
+    "uptimeYear": "99.91%",
+    "time": 653,
+    "timeDay": 5942,
+    "timeWeek": 1358,
+    "timeMonth": 484,
+    "timeYear": 653,
     "dailyMinutesDown": {
       "2026-05-07": 69,
-      "2026-09-08": 0
+      "2026-09-08": 107
     }
   },
   {
