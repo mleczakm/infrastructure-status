@@ -126,20 +126,20 @@
     "url": "https://xn--led-bza2n.mleczki.pl",
     "icon": "https://icons.duckduckgo.com/ip3/xn--led-bza2n.mleczki.pl.ico",
     "slug": "sledz-mleczki-pl",
-    "status": "down",
-    "uptime": "98.34%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "98.34%",
-    "time": 2069,
-    "timeDay": 10593,
-    "timeWeek": 3601,
-    "timeMonth": 2197,
-    "timeYear": 2069,
+    "status": "up",
+    "uptime": "98.33%",
+    "uptimeDay": "99.81%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "98.33%",
+    "time": 2801,
+    "timeDay": 17521,
+    "timeWeek": 6688,
+    "timeMonth": 3008,
+    "timeYear": 2801,
     "dailyMinutesDown": {
       "2026-08-09": 801,
-      "2026-09-11": 0
+      "2026-09-11": 3
     }
   }
 ]
