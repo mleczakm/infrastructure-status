@@ -46,9 +46,9 @@
     "slug": "warsztatownia-sensoryczna",
     "status": "down",
     "uptime": "99.66%",
-    "uptimeDay": "99.31%",
-    "uptimeWeek": "97.99%",
-    "uptimeMonth": "99.54%",
+    "uptimeDay": "98.40%",
+    "uptimeWeek": "97.86%",
+    "uptimeMonth": "99.51%",
     "uptimeYear": "99.66%",
     "time": 1452,
     "timeDay": 6750,
@@ -61,7 +61,7 @@
       "2026-08-09": 29,
       "2026-08-14": 260,
       "2026-09-17": 193,
-      "2026-09-22": 10
+      "2026-09-22": 23
     }
   },
   {
@@ -87,22 +87,22 @@
     "url": "https://porin.pl",
     "icon": "https://icons.duckduckgo.com/ip3/porin.pl.ico",
     "slug": "porin-kompleksowa-budowa-domow",
-    "status": "down",
-    "uptime": "99.67%",
-    "uptimeDay": "99.20%",
-    "uptimeWeek": "98.07%",
-    "uptimeMonth": "99.52%",
-    "uptimeYear": "99.67%",
-    "time": 3163,
-    "timeDay": 29598,
-    "timeWeek": 10558,
-    "timeMonth": 4155,
-    "timeYear": 3163,
+    "status": "up",
+    "uptime": "99.66%",
+    "uptimeDay": "98.30%",
+    "uptimeWeek": "97.94%",
+    "uptimeMonth": "99.49%",
+    "uptimeYear": "99.66%",
+    "time": 3284,
+    "timeDay": 26761,
+    "timeWeek": 11611,
+    "timeMonth": 4589,
+    "timeYear": 3284,
     "dailyMinutesDown": {
       "2026-08-09": 379,
       "2026-08-31": 16,
       "2026-09-17": 183,
-      "2026-09-22": 12
+      "2026-09-22": 25
     }
   },
   {
