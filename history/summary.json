@@ -22,21 +22,22 @@
     "url": "https://cargo.mleczki.pl",
     "icon": "https://icons.duckduckgo.com/ip3/cargo.mleczki.pl.ico",
     "slug": "cargo-mleczki",
-    "status": "up",
-    "uptime": "99.84%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "98.38%",
-    "uptimeMonth": "99.63%",
-    "uptimeYear": "99.84%",
-    "time": 820,
-    "timeDay": 630,
-    "timeWeek": 614,
-    "timeMonth": 1173,
-    "timeYear": 820,
+    "status": "down",
+    "uptime": "99.83%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "98.37%",
+    "uptimeMonth": "99.62%",
+    "uptimeYear": "99.83%",
+    "time": 1162,
+    "timeDay": 21941,
+    "timeWeek": 4878,
+    "timeMonth": 2310,
+    "timeYear": 1162,
     "dailyMinutesDown": {
       "2026-07-29": 20,
       "2026-08-09": 70,
-      "2026-09-17": 163
+      "2026-09-17": 163,
+      "2026-09-22": 1
     }
   },
   {
@@ -46,9 +47,9 @@
     "slug": "warsztatownia-sensoryczna",
     "status": "down",
     "uptime": "99.65%",
-    "uptimeDay": "97.64%",
-    "uptimeWeek": "97.75%",
-    "uptimeMonth": "99.48%",
+    "uptimeDay": "97.25%",
+    "uptimeWeek": "97.70%",
+    "uptimeMonth": "99.47%",
     "uptimeYear": "99.65%",
     "time": 1763,
     "timeDay": 14121,
@@ -61,7 +62,7 @@
       "2026-08-09": 29,
       "2026-08-14": 260,
       "2026-09-17": 193,
-      "2026-09-22": 34
+      "2026-09-22": 40
     }
   },
   {
@@ -87,22 +88,22 @@
     "url": "https://porin.pl",
     "icon": "https://icons.duckduckgo.com/ip3/porin.pl.ico",
     "slug": "porin-kompleksowa-budowa-domow",
-    "status": "down",
+    "status": "up",
     "uptime": "99.66%",
-    "uptimeDay": "98.24%",
-    "uptimeWeek": "97.93%",
-    "uptimeMonth": "99.49%",
+    "uptimeDay": "97.85%",
+    "uptimeWeek": "97.87%",
+    "uptimeMonth": "99.47%",
     "uptimeYear": "99.66%",
-    "time": 3284,
-    "timeDay": 26761,
-    "timeWeek": 11611,
-    "timeMonth": 4589,
-    "timeYear": 3284,
+    "time": 3355,
+    "timeDay": 23525,
+    "timeWeek": 11811,
+    "timeMonth": 4820,
+    "timeYear": 3355,
     "dailyMinutesDown": {
       "2026-08-09": 379,
       "2026-08-31": 16,
       "2026-09-17": 183,
-      "2026-09-22": 26
+      "2026-09-22": 31
     }
   },
   {
