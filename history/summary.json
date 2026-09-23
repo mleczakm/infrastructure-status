@@ -13,7 +13,7 @@
     "time": 173,
     "timeDay": 144,
     "timeWeek": 142,
-    "timeMonth": 206,
+    "timeMonth": 204,
     "timeYear": 173,
     "dailyMinutesDown": {}
   },
@@ -23,21 +23,20 @@
     "icon": "https://icons.duckduckgo.com/ip3/cargo.mleczki.pl.ico",
     "slug": "cargo-mleczki",
     "status": "up",
-    "uptime": "99.83%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "98.36%",
-    "uptimeMonth": "99.62%",
-    "uptimeYear": "99.83%",
+    "uptime": "99.84%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "98.38%",
+    "uptimeMonth": "99.63%",
+    "uptimeYear": "99.84%",
     "time": 1158,
     "timeDay": 14843,
     "timeWeek": 4493,
-    "timeMonth": 2266,
+    "timeMonth": 2309,
     "timeYear": 1158,
     "dailyMinutesDown": {
       "2026-07-29": 20,
       "2026-08-09": 70,
-      "2026-09-17": 163,
-      "2026-09-22": 1
+      "2026-09-17": 163
     }
   },
   {
@@ -54,7 +53,7 @@
     "time": 1765,
     "timeDay": 12407,
     "timeWeek": 6352,
-    "timeMonth": 4225,
+    "timeMonth": 4299,
     "timeYear": 1765,
     "dailyMinutesDown": {
       "2026-07-29": 20,
@@ -79,7 +78,7 @@
     "time": 947,
     "timeDay": 1027,
     "timeWeek": 1390,
-    "timeMonth": 1175,
+    "timeMonth": 1165,
     "timeYear": 947,
     "dailyMinutesDown": {}
   },
@@ -97,7 +96,7 @@
     "time": 3355,
     "timeDay": 23525,
     "timeWeek": 11811,
-    "timeMonth": 4820,
+    "timeMonth": 4870,
     "timeYear": 3355,
     "dailyMinutesDown": {
       "2026-08-09": 379,
@@ -111,20 +110,21 @@
     "url": "http://frog03.mikr.us:21363",
     "icon": "https://icons.duckduckgo.com/ip3/frog03.mikr.us.ico",
     "slug": "monitoring-na-frogu",
-    "status": "up",
+    "status": "down",
     "uptime": "99.82%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.29%",
     "uptimeYear": "99.82%",
     "time": 630,
     "timeDay": 251,
     "timeWeek": 321,
-    "timeMonth": 494,
+    "timeMonth": 496,
     "timeYear": 630,
     "dailyMinutesDown": {
       "2026-05-07": 69,
-      "2026-09-08": 310
+      "2026-09-08": 310,
+      "2026-09-23": 0
     }
   },
   {
@@ -133,15 +133,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/xn--led-bza2n.mleczki.pl.ico",
     "slug": "sledz-mleczki-pl",
     "status": "up",
-    "uptime": "98.46%",
+    "uptime": "98.48%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "98.29%",
     "uptimeMonth": "99.61%",
-    "uptimeYear": "98.46%",
+    "uptimeYear": "98.48%",
     "time": 2379,
     "timeDay": 895,
     "timeWeek": 1138,
-    "timeMonth": 2499,
+    "timeMonth": 2530,
     "timeYear": 2379,
     "dailyMinutesDown": {
       "2026-08-09": 801,
