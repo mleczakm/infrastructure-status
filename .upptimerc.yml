@@ -12,6 +12,8 @@ sites:
     url: https://warsztatowniasensoryczna.pl
   - name: ClassyCash - aplikacja wspierająca pracę skarbników klasowych
     url: https://skarbiec.mleczki.pl
+  - name: Classy Cash - strona projektu
+    url: https://classycash.dpdns.org
   - name: PORIN - kompleksowa budowa domów
     url: https://porin.pl
   - name: Monitoring na Frogu
