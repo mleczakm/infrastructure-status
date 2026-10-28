@@ -8,6 +8,8 @@ sites:
     url: https://mleczki.pl
   - name: Cargo Mleczki
     url: https://cargo.mleczki.pl
+  - name: ceramiza.pl
+    url: https://ceramiza.pl
   - name: Warsztatownia Sensoryczna
     url: https://warsztatowniasensoryczna.pl
   - name: ClassyCash - aplikacja wspierająca pracę skarbników klasowych
