@@ -26,6 +26,20 @@ sites:
     url: http://frog03.mikr.us:21363
   - name: śledź.mleczki.pl
     url: https://xn--led-bza2n.mleczki.pl
+  - name: SprintSpaces - strona
+    url: https://sprintspaces.github.io/
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "SprintSpaces"
+  - name: SprintSpaces - demo
+    # The public Demo gateway behind the automatic Mikrus route. /v1/stats is answered by the private controller
+    # through the gateway's Unix socket, so 200 with this JSON means gateway AND controller are up. When nothing
+    # listens, Mikrus replies 301 to an HTML error page that itself answers 200: accept only a direct 200 with the
+    # expected body, so that outage is never reported as up.
+    url: https://wanda192-20090.mikrus.cloud/v1/stats
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: '"idle_timeout_seconds"'
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
