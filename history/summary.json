@@ -149,21 +149,21 @@
     "url": "http://frog03.mikr.us:21363",
     "icon": "https://icons.duckduckgo.com/ip3/frog03.mikr.us.ico",
     "slug": "monitoring-na-frogu",
-    "status": "down",
+    "status": "up",
     "uptime": "99.86%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.86%",
-    "time": 578,
-    "timeDay": 315,
-    "timeWeek": 302,
-    "timeMonth": 299,
-    "timeYear": 578,
+    "time": 577,
+    "timeDay": 324,
+    "timeWeek": 305,
+    "timeMonth": 300,
+    "timeYear": 577,
     "dailyMinutesDown": {
       "2026-05-07": 69,
       "2026-09-08": 310,
-      "2026-10-31": 1
+      "2026-10-31": 2
     }
   },
   {
@@ -211,19 +211,19 @@
     "url": "https://wanda192-20090.mikrus.cloud/v1/stats",
     "icon": "https://icons.duckduckgo.com/ip3/wanda192-20090.mikrus.cloud.ico",
     "slug": "sprint-spaces-demo",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 491,
-    "timeDay": 405,
-    "timeWeek": 491,
-    "timeMonth": 491,
-    "timeYear": 491,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
+    "time": 501,
+    "timeDay": 443,
+    "timeWeek": 501,
+    "timeMonth": 501,
+    "timeYear": 501,
     "dailyMinutesDown": {
-      "2026-10-31": 0
+      "2026-10-31": 1
     }
   },
   {
