@@ -210,19 +210,19 @@
     "url": "https://wanda192-20090.mikrus.cloud/v1/stats",
     "icon": "https://icons.duckduckgo.com/ip3/wanda192-20090.mikrus.cloud.ico",
     "slug": "sprint-spaces-demo",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 501,
-    "timeDay": 491,
-    "timeWeek": 501,
-    "timeMonth": 501,
-    "timeYear": 501,
+    "status": "up",
+    "uptime": "99.83%",
+    "uptimeDay": "99.32%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.83%",
+    "uptimeYear": "99.83%",
+    "time": 513,
+    "timeDay": 543,
+    "timeWeek": 513,
+    "timeMonth": 513,
+    "timeYear": 513,
     "dailyMinutesDown": {
-      "2026-11-01": 0
+      "2026-11-01": 10
     }
   },
   {
