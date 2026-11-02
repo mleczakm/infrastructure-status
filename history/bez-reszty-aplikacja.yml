@@ -1,7 +1,7 @@
 url: https://bezreszty.mleczki.pl/healthz
-status: up
-code: 200
-responseTime: 1484
-lastUpdated: 2026-11-02T01:56:17.827Z
+status: down
+code: 530
+responseTime: 47
+lastUpdated: 2026-11-02T12:21:51.371Z
 startTime: 2026-10-28T23:51:38.427Z
 generator: Upptime <https://github.com/upptime/upptime>
