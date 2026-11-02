@@ -44,9 +44,10 @@ sites:
     __dangerous__body_down_if_text_missing: '"idle_timeout_seconds"'
   - name: BezReszty - aplikacja
     # /healthz runs a query against the SQLite database, so 200 with this JSON means the app AND its data
-    # volume are up. The app sits behind a Cloudflare Tunnel: when the origin is gone, Cloudflare answers
-    # with its own error page, so accept only a direct 200 with the expected body.
-    url: https://bezreszty.mleczki.pl/healthz
+    # volume are up. The app sits behind Cloudflare -> Cytrus -> Mikrus IPv6: when the origin is gone, Cloudflare or
+    # Cytrus answers with its own error page, so accept only a direct 200 with the expected body. The old
+    # bezreszty.mleczki.pl address only redirects to the main domain now.
+    url: https://bezreszty.org.pl/healthz
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: '"status":"ok"'
