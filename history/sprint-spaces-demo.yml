@@ -1,7 +1,7 @@
 url: https://wanda192-20090.mikrus.cloud/v1/stats
-status: up
-code: 200
-responseTime: 670
-lastUpdated: 2026-11-02T01:56:14.310Z
+status: down
+code: 500
+responseTime: 774
+lastUpdated: 2026-11-02T12:21:34.274Z
 startTime: 2026-10-28T17:15:32.232Z
 generator: Upptime <https://github.com/upptime/upptime>
