@@ -152,8 +152,8 @@
     "slug": "monitoring-na-frogu",
     "status": "up",
     "uptime": "99.86%",
-    "uptimeDay": "99.89%",
-    "uptimeWeek": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.86%",
     "time": 571,
@@ -163,8 +163,7 @@
     "timeYear": 571,
     "dailyMinutesDown": {
       "2026-05-07": 69,
-      "2026-09-08": 310,
-      "2026-11-05": 2
+      "2026-09-08": 310
     }
   },
   {
@@ -212,21 +211,21 @@
     "url": "https://wanda192-20090.mikrus.cloud/v1/stats",
     "icon": "https://icons.duckduckgo.com/ip3/wanda192-20090.mikrus.cloud.ico",
     "slug": "sprint-spaces-demo",
-    "status": "up",
-    "uptime": "98.77%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "98.69%",
-    "uptimeMonth": "98.77%",
-    "uptimeYear": "98.77%",
-    "time": 597,
-    "timeDay": 517,
-    "timeWeek": 614,
-    "timeMonth": 597,
-    "timeYear": 597,
+    "status": "down",
+    "uptime": "98.78%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "98.70%",
+    "uptimeMonth": "98.78%",
+    "uptimeYear": "98.78%",
+    "time": 588,
+    "timeDay": 500,
+    "timeWeek": 603,
+    "timeMonth": 588,
+    "timeYear": 588,
     "dailyMinutesDown": {
       "2026-11-02": 90,
       "2026-11-03": 40,
-      "2026-11-05": 1
+      "2026-11-05": 0
     }
   },
   {
@@ -235,11 +234,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/bezreszty.org.pl.ico",
     "slug": "bez-reszty-aplikacja",
     "status": "up",
-    "uptime": "98.07%",
+    "uptime": "98.08%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "98.03%",
-    "uptimeMonth": "98.07%",
-    "uptimeYear": "98.07%",
+    "uptimeMonth": "98.08%",
+    "uptimeYear": "98.08%",
     "time": 1016,
     "timeDay": 866,
     "timeWeek": 1087,
