@@ -37,11 +37,17 @@ sites:
     # The public Demo gateway behind the automatic Mikrus route. /v1/stats is answered by the private controller
     # through the gateway's Unix socket, so 200 with this JSON means gateway AND controller are up. When nothing
     # listens, Mikrus replies 301 to an HTML error page that itself answers 200: accept only a direct 200 with the
-    # expected body, so that outage is never reported as up.
+    # expected body, so that outage is never reported as up (today Mikrus answers 500 with the same HTML page).
+    #
+    # 403 is ignored: *.mikrus.cloud sits behind Mikrus' Cloudflare zone, which intermittently blocks the GitHub
+    # Actions runner IPs at the edge (fast 403, plain-text "error code: 10xx" body, request never reaches the
+    # gateway) and produced repeated false "down" alerts. The regex therefore passes either the controller JSON or
+    # a Cloudflare block body; the Mikrus error page matches neither, so a dead gateway is still reported down.
     url: https://wanda192-20090.mikrus.cloud/v1/stats
     expectedStatusCodes:
       - 200
-    __dangerous__body_down_if_text_missing: '"idle_timeout_seconds"'
+      - 403
+    __dangerous__body_down_if_regex_missing: '"idle_timeout_seconds"|error code: \d+|[Cc]loudflare'
   - name: BezReszty - aplikacja
     # /healthz runs a query against the SQLite database, so 200 with this JSON means the app AND its data
     # volume are up. The app sits behind Cloudflare -> Cytrus -> Mikrus IPv6: when the origin is gone, Cloudflare or
